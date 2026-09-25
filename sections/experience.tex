@@ -6,10 +6,28 @@
 \entrybig
 	{\textbf{Software Developer}}{}
 	{BrainRidge Consulting}{Nov 2024\textendash Present}
- \innerlist{\entry{Owned code evaluation, test, spec ingestion, and git-delivery agents on an internal multi-agent system that turned Jira requirements into pull requests (AWS Bedrock, Anthropic API, GitHub MCP, Atlassian MCP).}
- \entry{Used AI agent best practices including prompts, skills, hooks, tools, and MCP servers as necessary to produce high-quality agents while maintaining consistency and efficiency.}
- \entry{Built a workflow using the copilot CLI that migrates Lambda apps (internal CDK library, Node runtime, CVEs) across 65+ services at a Tier-1 Canadian bank; test/review agents halt with structured developer notes when a change is unsafe. $\sim 75\%$ faster upgrades ($\sim 80$ hours saved);}
- \entry{Took those services through bank SDLC (delivery letters, lower env, performance, production) with zero production issues.}}
+
+\projectheading{Spec-Driven Agentic SDLC Orchestrator}
+\innerlist{
+    \entry{Built an \textbf{LLM orchestration} platform that converted Jira requirements into pull requests via \textbf{code evaluation}, \textbf{test generation}, \textbf{spec ingestion}, and \textbf{git-delivery} agents using \textbf{AWS Bedrock}, \textbf{Anthropic API}, \textbf{GitHub MCP}, and \textbf{Atlassian MCP}.}
+    \entry{Crafted \textbf{prompts}, \textbf{skills}, \textbf{hooks}, \textbf{tools}, and \textbf{MCP server} integrations to improve consistency, traceability, and production safety.}
+	\entry{Implemented \textbf{DynamoDB}-backed state tracking and error tracking for \textbf{continual improvement}.}
+    \entry{Designed the review loop around typed envelopes, retry briefs, explicit halt conditions, and error categorization so long-running tasks could continue autonomously without losing context or quality control.}
+}
+
+\projectheading{Autonomous AWS Migration}
+\innerlist{
+    \entry{Built a \textbf{Copilot CLI} workflow to modernize internal \textbf{AWS Lambda} services across 65+ applications at a Tier-1 Canadian bank, including \textbf{CDK} upgrades, runtime migration, and CVE/security remediation.}
+    \entry{Tracked the full \textbf{agentic lifecycle} from analyze → prepare → execute → test → review → handoff, iterating on prompts, tools, and guardrails based on actual agent runs and reviewer feedback.}
+    \entry{Reduced upgrade effort by roughly \textbf{75\%} ($\sim$\textbf{80 hours} saved) while delivering the work through bank SDLC with zero production issues, using structured developer notes to halt unsafe changes early.}
+	\entry{Provided \textbf{training and documentation} for internal teams to adopt the workflow.}
+}
+
+\projectheading{Agentic AWS Call Centre POC}
+\innerlist{
+    \entry{Worked on an agentic call centre POC using \textbf{AWS Connect, Lex} and the \textbf{Anthropic API} to answer customer calls, respond to questions, and escalate using \textbf{Claude Architect} best practices.}
+    \entry{Completed a full end to end workflow from customer call → agentic response → human handoff, including \textbf{prompt engineering} and \textbf{tool design}.}
+}
 
 \entrybig
 	{\textbf{Machine Learning Contractor}}{}
