@@ -1,0 +1,30 @@
+\documentclass[letterpaper,11pt]{article}
+
+% Choose bibliography style for formatting list of publications
+\usepackage[style=ieee,url=false,doi=false,maxbibnames=99,sorting=ydnt,dashed=false]{biblatex}
+\bibliography{papers}
+
+% Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
+\def\theme{MidnightBlue}
+
+\usepackage{simplecv}
+
+\boldname{Surname}{Name}{N.}
+
+\begin{document}
+
+\headinginline{Owen Chambers}{
+    \faEnvelope \, \email{mr.owen.chambers@gmail.com} \\
+    \faGithub \, \github{ochambers3} \\
+    \faGlobe \, \website{owenchambers.ca} \\
+    \faLinkedin \, \linkedin{owen-chambers33} \\
+    \faPhone \, (204) 740-0123
+}
+
+\import{sections/}{profile.tex}
+\import{sections/one-pager/}{experience.tex}
+\import{sections/one-pager/}{education.tex}
+\import{sections/one-pager/}{projects.tex}
+\import{sections/}{skills.tex}
+
+\end{document}
